@@ -15,10 +15,10 @@ function alltexts(n){
 }
 
 Array.prototype.forEach.call(alltexts(document.body), function (element) {
-if (Math.random()*1 > 0.5) {
+if (Math.random()*1 > 0.62) {
 var t = element.textContent.split(' ');
 t.forEach(function (val,k) {
-if (val.length > 1 && k > 0 && Math.random()*1 > 0.6) {
+if (val.length > 1 && k > 0 && Math.random()*1 > 0.67) {
     t[k] = 'kurwa ' + val;
 }
 });
