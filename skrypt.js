@@ -43,8 +43,8 @@
         insert = beautify(insert, 'potrąciło', ['pierdolnęło']);
         insert = beautify(insert, 'potrąciła', ['pierdolnęła']);
         insert = beautify(insert, 'potrącił', ['pierdolnął']);
-        insert = beautify(insert, 'wtargnął', ['wjebał', 'wpierdolił']) + ' się';
-        insert = beautify(insert, 'wtargnęł', ['wjebał', 'wpierdolił']) + ' się';
+        insert = beautify(insert, 'wtargnął', ['wjebał', 'wpierdolił']);
+        insert = beautify(insert, 'wtargnęł', ['wjebał', 'wpierdolił']);
         insert = beautify(insert, 'olicja', ['sy']);
         insert = beautify(insert, 'zmarł', ['zdechł']);
         insert = beautify(insert, 'umarł', ['zdechł']);
