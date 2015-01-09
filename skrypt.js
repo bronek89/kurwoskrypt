@@ -39,6 +39,15 @@
         insert = beautify(insert, 'uderzył', ['przypierdolił', 'pierdolnął', 'przykirwił']);
         insert = beautify(insert, 'zniszczył', ['rozjebał', 'rozpierdolił', 'rozkurwił']);
         insert = beautify(insert, 'popsut', ['rozjeban', 'rozpierdolon', 'rozkurwion']);
+        insert = beautify(insert, 'tragedia', ['chujnia', 'kutasówa']);
+        insert = beautify(insert, 'potrąciło', ['pierdolnęło']);
+        insert = beautify(insert, 'potrąciła', ['pierdolnęła']);
+        insert = beautify(insert, 'potrącił', ['pierdolnął']);
+        insert = beautify(insert, 'wtargnął', ['wjebał', 'wpierdolił']) + ' się';
+        insert = beautify(insert, 'wtargnęł', ['wjebał', 'wpierdolił']) + ' się';
+        insert = beautify(insert, 'olicja', ['sy']);
+        insert = beautify(insert, 'zmarł', ['zdechł']);
+        insert = beautify(insert, 'umarł', ['zdechł']);
         insert = beautify(insert, 'relacjonował', ['napierdalał', 'nakurwiał']);
 
         return insert;
